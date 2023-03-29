@@ -1,0 +1,44 @@
+<!-- 
+	The .menu class is the shit that will get fixed on scroll
+-->
+<div class="menu">
+	<ul>
+<!-- 
+	Li items without name attribute will be neglected :)
+-->	
+		<li class="first"></li>
+		<li class="active empty"></li>
+<!-- 
+	All name="anchor" stuff will be spied upon. 
+-->		
+		<li>
+			<a name="anchor" data-correction="50" data-id="anchor-2">
+				About Uranus</a></li>
+<!-- 
+	Correction is the scroll correction: IF needed it will scroll further/less in pixels
+-->				
+		<li>
+			<a name="anchor" data-correction="50" data-id="anchor-3">
+				Focus on Uranus</a></li>
+<!-- 
+	Data id is the dataset that will need the same name as the id of the scroll target
+-->				
+		<li>
+			<a name="anchor" data-correction="50" data-id="anchor-4">
+				What's in Uranus</a></li>
+
+	</ul>
+</div>
+
+<!-- 
+	The create the jump targets
+-->
+<h3 id="anchor-2">About Uranus</h3>
+
+<h3 id="anchor-3">Focus on Uranus</h3>
+
+<h3 id="anchor-4">What's in Uranus</h3>
+
+<!-- 
+	get jiggy with it.
+-->
